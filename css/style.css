@@ -1,0 +1,334 @@
+.navbar-default {
+  background-color: #232d3b;
+}
+.navbar-default.navbar {
+  border-radius: 0;
+  min-height: 80px;
+  margin: 0;
+  border-bottom: 10px solid #ee5f15;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-nav {
+  margin-top: 25px ;
+  float: right;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #7f8388;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0;
+  padding-right: 35px;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #FFF;
+}
+.da-sign-up {
+  float: right;
+  margin-top: 15px;
+  padding: 8px 16px;
+  background: #a3d39c;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+  box-shadow: 0 3px 0 #739e6c;
+}
+.da-sign-up:hover {
+  background: #55a64a;
+}
+.navbar-toggle {
+  margin-top: 16px;
+}
+@media (max-width: 768px) {
+  .navbar-nav {
+    float: left;
+  }
+}
+.da-slider {
+  position: relative;
+  background-color: #ff742c;
+  text-align: center;
+  padding: 20px 0 60px 0;
+}
+.da-slider__title {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 300;
+  display: inline-block;
+  width: 80%;
+}
+.da-slider img {
+  margin: 0 auto;
+}
+.carousel-control.right,
+.carousel-control.left {
+  background-image: none;
+}
+.glyphicon.glyphicon-chevron-right,
+.glyphicon.glyphicon-chevron-left {
+  color: #c34d0f;
+  width: 28px;
+  height: 36px;
+  text-shadow: none;
+  font-size: 30px;
+}
+.glyphicon.glyphicon-chevron-right {
+  margin-right: -10%;
+}
+.glyphicon.glyphicon-chevron-left {
+  margin-left: -10%;
+}
+.carousel.slide {
+  margin: 20px 0;
+}
+.form-control {
+  height: 50px;
+  width: 67%;
+  line-height: 50px;
+  padding: 0 50px;
+}
+.da-select-left {
+  float: right;
+}
+.da-slider__form select {
+  /*for WebKit*/
+  -webkit-appearance: none;
+  /* for FF */
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: '';
+  /* for IE */
+  -ms-appearance: none;
+  -webkit-appearance: none!important;
+     -moz-appearance: none!important;
+          appearance: none!important;
+  background: #fff url(../img/icon-select.png) no-repeat 100%;
+  box-shadow: 0 2px 0 #cc6229;
+}
+.da-select-icon-left {
+  position: relative;
+}
+.da-select-icon-left:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #FFF url(../img/input-icon-disk.png) no-repeat;
+  top: 33%;
+  left: 40%;
+}
+.da-select-icon-right {
+  position: relative;
+}
+.da-select-icon-right:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 25px;
+  height: 16px;
+  background: #FFF url(../img/input-icon-icloud.png) no-repeat;
+  top: 35%;
+  left: 7%;
+}
+.btn-lg {
+  padding: 10px 35px;
+  font-size: 21px;
+  font-weight: 700;
+  color: #ffffff;
+  border-radius: 4px;
+  background: #7ACCC8;
+  border: none;
+  margin-top: 17px;
+  box-shadow: 0 3px 0 #4aaaa5;
+}
+.btn-lg:hover {
+  background: #378f8b;
+  color: #ffffff;
+}
+.da-group-btn {
+  position: absolute;
+  left: 20px;
+  top: 15%;
+  padding: 0;
+}
+.da-btn-fixed {
+  padding: 0;
+  border: none;
+}
+.da-compare-link.fa {
+  color: #FFF;
+  font-size: 21px;
+  padding: 20px;
+  border: none;
+}
+.fa-comments {
+  background: #36aaa4;
+}
+.fa-comments:hover {
+  background: #174947;
+}
+.fa-envelope {
+  background: #80d3cf;
+}
+.fa-envelope:hover {
+  background: #369d98;
+}
+.fa-heart {
+  background: #5DBAB5;
+  box-shadow: 0 3px 0 #4aaaa5;
+}
+.fa-heart:hover {
+  background: #2d6a67;
+}
+@media (max-width: 768px) {
+  .da-select-left {
+    float: none;
+  }
+  .form-control {
+    margin: 0 auto;
+    width: 55%;
+  }
+  .da-select-icon-left:before {
+    top: 33%;
+    left: 27%;
+  }
+  .da-select-icon-right:before {
+    top: 35%;
+    left: 27%;
+  }
+  .da-select-icon-right {
+    margin-top: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .form-control {
+    width: 80%;
+  }
+  .da-select-icon-left:before {
+    top: 33%;
+    left: 18%;
+  }
+  .da-select-icon-right:before {
+    top: 35%;
+    left: 17%;
+  }
+  .da-compare-link.fa {
+    font-size: 16px;
+    padding: 12px;
+  }
+  .da-group-btn {
+    left: 5px;
+    top: 15%;
+  }
+}
+.da-about {
+  padding: 25px 0 100px;
+  background: #f6f5f2;
+}
+.da-about__title {
+  color: #232d3b;
+  font-size: 25px;
+  font-weight: 400;
+}
+.da-about p {
+  color: #959595;
+  font-size: 14px;
+  font-weight: 400;
+}
+.da-about .da-text-color {
+  color: #ff742c;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 15px 0 25px;
+}
+.da-slider-bottom {
+  padding-bottom: 140px;
+  background: linear-gradient(to bottom, #fff 0px, #fff 20%, #5dbab5 calc(21%), #5dbab5 100%);
+}
+.carousel.da-slidre-bottom__margin {
+  margin: -40px 0;
+}
+.carousel-indicators {
+  left: 50%;
+  top: 105%;
+}
+.da-footer {
+  padding: 45px 0 415px;
+  border-top: 15px solid #0D131A;
+  background: #232d3d;
+}
+.da-footer__descr {
+  height: 24px;
+  max-width: 440px;
+  overflow: hidden;
+  color: #4c5c74;
+  margin: 15px 0 20px;
+}
+.da-footer .da-social__icon {
+  width: 60px;
+  height: 51px;
+  font-size: 26px;
+  line-height: 51px;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+  margin-left: 0;
+}
+.da-footer .da-social__icon:first-of-type {
+  margin-left: 0;
+}
+.da-footer .da-social__icon:hover {
+  opacity: 0.7;
+  color: #232d3d;
+}
+.da-footer__form {
+  max-width: 540px;
+  position: relative;
+  margin-bottom: 50px;
+}
+input {
+  width: 100%;
+  height: 75px;
+  background: #000;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 30px;
+  outline: none;
+}
+input::-webkit-input-placeholder {
+  color: #fff;
+}
+.da-footer__form .da-button {
+  position: absolute;
+  top: 28px;
+  right: 33px;
+  display: block;
+  height: 19px;
+  width: 28px;
+  border: none;
+  box-shadow: none;
+  background: url(../img/email-icon.png) 50% no-repeat;
+}
+.fa-rss {
+  background: #FFAA16;
+  box-shadow: 0 3px 0 #d38600;
+}
+.fa-futbol-o {
+  background: #EC5B95;
+  box-shadow: 0 3px 0 #d30054;
+}
+.fa-twitter {
+  background: #00AEEF;
+  box-shadow: 0 3px 0 #0081b1;
+}
+.fa-facebook {
+  background: #0054A6;
+  box-shadow: 0 3px 0 #003a72;
+}
+
+/*# sourceMappingURL=style.css.map */
